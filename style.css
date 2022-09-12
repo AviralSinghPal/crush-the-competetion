@@ -63,3 +63,26 @@ span{
     padding: 20px 50px;
     font-size: large;
 }
+.burger{
+    display: none;
+}
+.image{
+    width: 100%;
+}
+
+@media screen and (max-width:1200px) {
+    .list-item{
+        padding: 10px 20px;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .list{
+        display: none;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+}
