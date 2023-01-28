@@ -39,9 +39,9 @@ ul{
 }
 .list-item:hover{
     
-    /* font: bold; */
+    font: bold;
     color: black;
-    font-size: larger;
+    /* font-size: larger; */
 }
 button{
     background-color: #5955B3;
